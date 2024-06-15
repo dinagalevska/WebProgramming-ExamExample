@@ -120,3 +120,18 @@ spec:
       targetPort: 8080
       nodePort: 30080
   type: NodePort
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: db-service
+spec:
+  selector:
+    app: db
+  ports:
+    - protocol: TCP
+      port: 5432
+      targetPort: 5432
+  type: ClusterIP
