@@ -52,3 +52,7 @@
   Во коментари се дадени описи за елементите кои треба да се повторуваат, како и кои методи од контролерот треба да се повикаат.
 - Потребно е да конфигурирате најава и одјава на корисници со Spring Security во класата `SecurityConfig`.
   Во самата класа има опис што треба да биде имплементирано.
+
+
+# Kubectl ingress command
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml
