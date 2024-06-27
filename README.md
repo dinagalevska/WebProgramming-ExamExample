@@ -54,5 +54,5 @@
   Во самата класа има опис што треба да биде имплементирано.
 
 
-# Kubectl ingress command
+# Kubectl ingress command 
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml
